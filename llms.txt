@@ -1,0 +1,7 @@
+# E-JIWON
+
+> E-JIWON이 GitHub Pages로 공개한 프로젝트 모음.
+
+## 프로젝트
+
+- [다크패턴 가이드라인 정리 (2026 공정위)](https://e-jiwon.github.io/dark-pattern-guide/llms.txt): 공정위 「다크패턴 방지를 위한 온라인 인터페이스 운영 가이드라인」 13개 유형 요약, 법 조항·과태료, 문제 사례, 점검 체크리스트. 마크다운 전문: https://e-jiwon.github.io/dark-pattern-guide/guide.md
