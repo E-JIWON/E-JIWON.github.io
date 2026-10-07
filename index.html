@@ -6,7 +6,7 @@
 <meta name="naver-site-verification" content="65dc62ee3ea26f268117b955fcd78a9a39550451" />
 <title>E-JIWON 프로젝트</title>
 <meta name="viewport" content="width=device-width,initial-scale=1">
-<meta name="description" content="E-JIWON이 GitHub Pages로 공개한 프로젝트 모음">
+<meta name="description" content="E-JIWON이 공개한 프로젝트 모음 — 맥 메뉴바 앱, 웹 게임, 슬랙 봇, 가이드">
 <link rel="canonical" href="https://e-jiwon.github.io/">
 <link rel="icon" href="favicon.svg" type="image/svg+xml">
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/static/pretendard-dynamic-subset.min.css">
@@ -16,18 +16,33 @@
 body{margin:0;background:var(--bg);color:var(--ink);font:400 16.5px/1.75 "Pretendard",-apple-system,"Apple SD Gothic Neo",sans-serif;letter-spacing:-.011em}
 main{max-width:640px;margin:0 auto;padding:72px 20px}
 h1{font-size:28px;margin:0 0 6px}
+h2{font-size:14px;color:var(--ink-3);font-weight:600;letter-spacing:.04em;margin:36px 0 10px;text-transform:uppercase}
 p{color:var(--ink-3);margin:0 0 28px}
-a.card{display:block;background:var(--surface);border:1px solid var(--border);border-radius:16px;padding:20px 22px;color:inherit;text-decoration:none;box-shadow:0 4px 16px rgba(60,55,45,.07)}
+a.card{display:block;background:var(--surface);border:1px solid var(--border);border-radius:16px;padding:20px 22px;color:inherit;text-decoration:none;box-shadow:0 4px 16px rgba(60,55,45,.07);margin-bottom:12px}
 a.card:hover strong{color:var(--primary)}
 a.card strong{display:block;font-size:18px}
 a.card span{color:var(--ink-3);font-size:15px}
+a.card small{display:block;color:var(--primary);font-size:13px;margin-top:4px}
 </style>
 </head>
 <body>
 <main>
 <h1>E-JIWON</h1>
-<p>GitHub Pages로 공개한 프로젝트</p>
-<a class="card" href="/dark-pattern-guide/"><strong>다크패턴 가이드라인 정리</strong><span>공정위 「다크패턴 방지를 위한 온라인 인터페이스 운영 가이드라인」(2026.10.6) 13개 유형 요약 · 원문 예시 화면 · 점검표</span></a>
+<p>공개한 프로젝트</p>
+
+<h2>맥 앱</h2>
+<a class="card" href="https://github.com/E-JIWON/capywork"><strong>카피 출근부 · CapyWork</strong><span>Claude Code 세션을 상단바 카피바라 도트로 보여주는 macOS 메뉴바 앱. 세션마다 카피바라 한 마리, 기다리는 중·새 답변·사용량까지</span><small>github.com/E-JIWON/capywork</small></a>
+<a class="card" href="https://github.com/E-JIWON/clipshelf"><strong>클립 선반 · ClipShelf</strong><span>맥 화면 가장자리의 클립보드 선반. 캡처·텍스트·파일을 잠시 올려두고 필요할 때 다시 꺼낸다</span><small>github.com/E-JIWON/clipshelf</small></a>
+
+<h2>웹</h2>
+<a class="card" href="https://code-race.bonchil.workers.dev"><strong>코드 레이스 · Code Race</strong><span>zustand·TanStack Query·Jotai·Redux·React의 실제 코드를 치며 읽는 타자 게임. 한글 해설, 자동완성, 실시간 대결</span><small>code-race.bonchil.workers.dev</small></a>
+<a class="card" href="https://jinsang-defense.bonchil.workers.dev"><strong>진상 디펜스</strong><span>AI가 연기하는 진상 손님을 친구들과 돌아가며 2분씩 달래는 멀티플레이 웹 게임</span><small>jinsang-defense.bonchil.workers.dev</small></a>
+<a class="card" href="https://trolley-ethics.vercel.app"><strong>트롤리 딜레마</strong><span>트롤리 문제 기반 윤리 사고실험 인터랙티브 페이지</span><small>trolley-ethics.vercel.app</small></a>
+<a class="card" href="https://bongchil-design-system.vercel.app"><strong>봉칠 디자인 시스템</strong><span>토큰·재질·컨트롤 컴포넌트</span><small>bongchil-design-system.vercel.app</small></a>
+
+<h2>도구 · 문서</h2>
+<a class="card" href="https://github.com/E-JIWON/slack-thrill-bot"><strong>쾌락실 · 슬랙 미니게임 봇</strong><span>폭탄 돌리기, 이모지 몬스터 포획, 초성 퀴즈. Slack Bolt + SQLite</span><small>github.com/E-JIWON/slack-thrill-bot</small></a>
+<a class="card" href="/dark-pattern-guide/"><strong>다크패턴 가이드라인 정리</strong><span>공정위 「다크패턴 방지를 위한 온라인 인터페이스 운영 가이드라인」(2026.10.6) 13개 유형 요약 · 원문 예시 화면 · 점검표</span><small>e-jiwon.github.io/dark-pattern-guide</small></a>
 </main>
 </body>
 </html>
